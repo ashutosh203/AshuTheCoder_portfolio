@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  /* scroll-behavior: smooth; */
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./Font/poppins-v23-latin/poppins-v23-latin-500.woff2")
+    format("woff2");
+}
+
+.scroll-target {
+  scroll-margin-top: 80px; /* Navbar ki height ke liye offset */
+}
+
+.bg-accent {
+  background-color: #58a6ff;
+}
+
+
