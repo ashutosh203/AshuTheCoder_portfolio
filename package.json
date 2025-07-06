@@ -10,13 +10,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ashutosh203/AshuTheCoder_portfolio.git"
-  },  
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist  -r https://github.com/ashutosh203/AshuTheCoder_portfolio.git"
+    "deploy": "gh-pages -d dist --repo=https://github.com/ashutosh203/AshuTheCoder_portfolio.git -u 'AshuTheCoder <ashutoshkumarshah8512@gmail.com>'"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
