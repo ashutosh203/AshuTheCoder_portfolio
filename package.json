@@ -16,7 +16,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist --repo=https://github.com/ashutosh203/AshuTheCoder_portfolio.git -u 'AshuTheCoder <ashutoshkumarshah8512@gmail.com>'"
+    "deploy": "gh-pages -d dist --repo=https://ashutosh203.github.io/AshuTheCoder_portfolio.git -u 'AshuTheCoder <ashutoshkumarshah8512@gmail.com>' --branch=gh-pages"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
