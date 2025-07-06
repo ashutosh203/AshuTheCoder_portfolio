@@ -4,7 +4,7 @@ const HeroSectionIntro = () => {
   return (
     <>
       <h1 className="text-6xl text-white font-bold capitalize">
-        Ashutosk kumar shah
+        Ashutosh kumar shah
       </h1>
       <p className="text-2xl mt-3 font-light accent-color">
         Full-Stack Web Developer
