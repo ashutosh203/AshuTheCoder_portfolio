@@ -3,6 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ashutosh203.github.io/AshuTheCoder_portfolio",
+  "description": "AshuTheCoder Portfolio",
+  "author": "Ashutosh Kumar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashutosh203/AshuTheCoder_portfolio.git"
+  },  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
