@@ -3,7 +3,7 @@ import React from "react";
 const HeroSectionIntro = () => {
   return (
     <>
-      <h1 className="text-6xl text-white font-bold capitalize">
+      <h1 className="text-4xl md:text-6xl text-white font-bold capitalize">
         Ashutosh kumar shah
       </h1>
       <p className="text-2xl mt-3 font-light accent-color">

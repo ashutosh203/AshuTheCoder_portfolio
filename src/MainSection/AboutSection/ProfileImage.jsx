@@ -1,6 +1,6 @@
 const ProfileImage = ({ Profileimg }) => {
   return (
-    <div className="w-1/4  ">
+    <div className="w-2/3 md:w-1/4  ">
       <img
         src={Profileimg}
         alt="image"

@@ -16,7 +16,7 @@ const SkillsSection = ({ imagelink }) => {
   return (
     <section id="skills" className="font-serif py-20 scroll-target">
       <h2 className="text-4xl font-bold text-center text-white">My Skills</h2>
-      <div className="grid grid-cols-5 gap-8 mt-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mt-10">
         <SkillsCards src={react} alt={"image"} SkillsName="React" />
         <SkillsCards src={nodejs} alt={"image"} SkillsName="node.js" />
         <SkillsCards src={Express} alt={"image"} SkillsName="Express" />

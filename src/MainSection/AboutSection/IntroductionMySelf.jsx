@@ -1,6 +1,6 @@
 const IntroductionMySelf = () => {
   return (
-    <div className="w-2/3 text-lg text-gray-400 space-y-4 ">
+    <div className="w-full text-justify md:w-2/3 text-lg text-gray-400 space-y-4 ">
       <p>
         Hello, my name is Ashutosh Kumar. I'm a passionate and self-driven
         individual with a strong interest in web development and modern

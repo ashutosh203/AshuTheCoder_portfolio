@@ -65,9 +65,19 @@ Replace `<username>` and `<repo-name>` with your GitHub username and repository 
 3. git remote add origin https://github.com/ashutosh203/AshuTheCoder_portfolio.git // add the remote repository
 4. git add .
 5. git commit -m "Manual deploy"
-6. git push -f origin gh-pages // force push to the gh-pages branch or yebhi use kar sakate hai git push -f origin gh-pages // force push to the gh-pages branch
+6. git push -f origin gh-pages // force push to the gh-pages branch
 7. git status // to check the status of branch
 8. git branch // to check the current branch
 9. git checkout main // to switch to the main branch
 
 <!-- 10. git merge gh-pages // to merge the gh-pages branch into the main branch -->
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+sm:  => small screen (≥ 640px) // jab screen 640px ya usse badi hogi, tab ye style apply hoga
+md:  => medium screen (≥ 768px) // jab screen 768px ya usse badi hogi, tab ye style apply hoga
+lg:  => large screen (≥ 1024px) // jab screen 1024px ya usse badi hogi, tab ye style apply hoga
+xl:  => extra-large screen (≥ 1280px) // jab screen 1280px ya usse badi hogi, tab ye style apply hoga
+2xl: => double extra-large screen (≥ 1536px) // jab screen 1536px ya usse badi hogi, tab ye style apply hoga
+## Using Tailwind CSS

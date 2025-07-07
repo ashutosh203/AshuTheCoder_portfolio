@@ -8,7 +8,7 @@ const AboutSection = ({ Profileimg }) => {
       <h2 className="text-4xl font-bold text-center text-white">
         Self-Introduction
       </h2>
-      <div className="flex items-center gap-12 mt-12">
+      <div className=" flex-col flex items-center gap-12 mt-12 md:flex-row">
         <ProfileImage Profileimg={Profileimg} />
         <IntroductionMySelf/>
       </div>

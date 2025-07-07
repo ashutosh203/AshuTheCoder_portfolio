@@ -1,9 +1,7 @@
 import { Link } from "react-scroll";
-const NavList = () => {
+const NavList = ({ Classname, onclick }) => {
   const Arry = ["about", "skills", "projects", "contact"];
 
-  const Classname =
-    "hover:text-amber-500 transition-colors duration-300 capitalize ";
   return (
     <>
       {Arry.map((navitems, i) => {
