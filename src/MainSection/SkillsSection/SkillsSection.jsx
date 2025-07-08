@@ -21,7 +21,7 @@ const SkillsSection = ({ imagelink }) => {
         <SkillsCards src={nodejs} alt={"image"} SkillsName="node.js" />
         <SkillsCards src={Express} alt={"image"} SkillsName="Express" />
         <SkillsCards src={MongoDB} alt={"image"} SkillsName="MongoDB" />
-        <SkillsCards src={JavaScript} alt={"image"} SkillsName="MongoDB" />
+        <SkillsCards src={JavaScript} alt={"image"} SkillsName="JavaScript" />
         <SkillsCards
           src={Tailwind_CSS}
           alt={"image"}
