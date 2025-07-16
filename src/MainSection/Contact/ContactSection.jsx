@@ -7,7 +7,7 @@ const ContactSection = () => {
     emailjs
       .sendForm(
         "service_ddeht1n", //  yaha apna Service ID daalo
-        "o3d2tge", //  yaha apna Template ID daalo
+        "template_c1tdcdtq", //  yaha apna Template ID daalo
         e.target,
         "kKRf4WnP-Pt8HMR3H" //  yaha apna Public Key daalo
       )
