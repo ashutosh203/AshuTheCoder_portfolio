@@ -1,6 +1,7 @@
 import NavList from "./Component/NavList";
 import { useState } from "react";
 import "./HeaderSection.css";
+import Resumepdf from "../assets/Ashutoshkumarshah.pdf"
 const HeaderSection = () => {
   const [onclickButton, setOnclickButton] = useState(false);
   const Classname =
@@ -20,7 +21,8 @@ const HeaderSection = () => {
         </div>
         {/* this is a Resume */}
         <a
-          href="#resume"
+          href={Resumepdf}
+          download={"Ashutosh_Kumar_Shah_Resume"}
           target="_blank"
           className="hidden md:block text-gray-900 font-bold py-2 font-serif px-4 capitalize rounded-lg bg-blue-400 hover:scale-[1.05] duration-300 "
         >
