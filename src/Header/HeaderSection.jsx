@@ -1,7 +1,7 @@
 import NavList from "./Component/NavList";
 import { useState } from "react";
 import "./HeaderSection.css";
-import Resumepdf from "../assets/Ashutoshkumarshah.pdf"
+import Resumepdf from "../assets/Ashutoshkumarshah.pdf";
 const HeaderSection = () => {
   const [onclickButton, setOnclickButton] = useState(false);
   const Classname =
@@ -54,7 +54,8 @@ const HeaderSection = () => {
         <div className="md:hidden glass-effect flex flex-col capitalize px-6 absolute top-full left-0 w-full z-40 py-4  ">
           <NavList onclick={() => setOnclickButton((prev) => !prev)} />
           <a
-            href="#resume"
+            href={Resumepdf}
+            download={"Ashutosh_Kumar_Shah_Resume"}
             target="_blank"
             className="font-serif font-bold capitalize rounded-lg"
           >
