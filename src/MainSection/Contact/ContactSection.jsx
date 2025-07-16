@@ -1,6 +1,28 @@
+import emailjs from "emailjs-com";
 import React from "react";
-
 const ContactSection = () => {
+  const HandleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ddeht1n", //  yaha apna Service ID daalo
+        "o3d2tge", //  yaha apna Template ID daalo
+        e.target,
+        "kKRf4WnP-Pt8HMR3H" //  yaha apna Public Key daalo
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("✅ Message sent successfully!");
+          e.target.reset(); // form clear
+        },
+        (error) => {
+          console.log(error.text);
+          alert("❌ Something went wrong. Please try again.");
+        }
+      );
+  };
 
   return (
     <section id="contact" className="py-20 scroll-target ">
@@ -9,14 +31,14 @@ const ContactSection = () => {
         Whether it's a game-changing idea or just a hello — my inbox is always
       </p>
       <div className="mt-12 max-w-xl mx-auto ">
-        <form method="POST" action="#" className="space-y-6">
+        <form method="POST" onSubmit={HandleSubmit} className="space-y-6">
           <div>
             <label htmlFor="name" className="text-white sr-only">
               Name
             </label>
             <input
               type="text"
-              name="Name"
+              name="name"
               id="name"
               placeholder="Enter your name"
               required
@@ -63,7 +85,10 @@ const ContactSection = () => {
         </form>
         <p className="text-center mt-8 text-gray-400 capitalize">
           Send a mail to&nbsp;: &nbsp;
-          <a href="#" className="text-accent-color hover:underline text-blue-600">
+          <a
+            href="#"
+            className="text-accent-color hover:underline text-blue-600"
+          >
             ashutoshkumarshah8512@gmail.com
           </a>
         </p>
