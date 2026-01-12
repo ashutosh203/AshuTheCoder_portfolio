@@ -83,14 +83,13 @@ const ContactSection = () => {
             </button>
           </div>
         </form>
-        <p className="text-center mt-8 text-gray-400 capitalize">
+        <p className="text-center mt-8 text-gray-400 ">
           Send a mail to&nbsp;: &nbsp;
-          <a
-            href="#"
+          <span
             className="text-accent-color hover:underline text-blue-600"
           >
             ashutoshkumarshah8512@gmail.com
-          </a>
+          </span>
         </p>
       </div>
     </section>

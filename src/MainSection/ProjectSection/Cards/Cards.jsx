@@ -5,7 +5,7 @@ const Cards = ({
   description,
   languesUse,
   projectLInk,
-  projectSource,
+  // projectSource,
 }) => {
   return (
     <div className="font-serif glass-effect rounded-lg overflow-hidden flex flex-col hover:scale-105 transition-all duration-300">
@@ -27,7 +27,7 @@ const Cards = ({
             </span>
           ))}
         </div>
-        <div className="mt-6 flex gap-4">
+        <div className="mt-6 flex gap-4 items-center justify-center">
           <a
             href={projectLInk}
             target="_blank"
@@ -35,13 +35,13 @@ const Cards = ({
           >
             Linve Demo
           </a>
-          <a
+          {/* <a
             href={projectSource}
             target="_blank"
             className=" font-serif w-1/2 text-center bg-gray-700 text-white font-bold py-2 px-4 rounded-lg hover:bg-gray-600 transition-colors duration-300"
           >
             Source Code
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

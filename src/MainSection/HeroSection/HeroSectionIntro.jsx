@@ -10,9 +10,9 @@ const HeroSectionIntro = () => {
         Full-Stack Web Developer
       </p>
       <p className="max-w-2xl mt-6 mx-auto text-lg text-gray-400">
-        I specialize in developing modern, high-performance web application with
-        a focus in responsiveness and user experience. Let's work together to
-        bring your ideas to life.
+        I specialize in developing modern, high-performance web applications
+        with a focus on responsiveness and user experience. Let's work together
+        to bring your ideas to life.
       </p>
     </>
   );
