@@ -16,7 +16,7 @@ const HeroSectionGitLindin = () => {
         </svg>
       </a>
       <a
-        href="www.linkedin.com/in/ashuthecoder"
+        href="https://www.linkedin.com/in/ashuthecoder/"
         target="_blank"
         className="text-gray-400 hover:text-white transition-colors duration-300 hover:scale-105 ease-in-out"
       >
