@@ -2,11 +2,7 @@ const HeroSectionGitLindin = () => {
   return (
     <div className="mt-12 flex justify-center gap-7">
       <a
-<<<<<<< HEAD
         href="https://github.com/ashutosh203"
-=======
-        href="https://github.com/dashboard"
->>>>>>> 1cbcf250fb9cf03724aff4df348e0123793d1916
         target="_blank"
         className="text-gray-400 hover:text-white transition-colors duration-300 hover:scale-105 ease-in-out"
       >
@@ -20,11 +16,7 @@ const HeroSectionGitLindin = () => {
         </svg>
       </a>
       <a
-<<<<<<< HEAD
         href="www.linkedin.com/in/ashuthecoder"
-=======
-        href="https://www.linkedin.com/feed/"
->>>>>>> 1cbcf250fb9cf03724aff4df348e0123793d1916
         target="_blank"
         className="text-gray-400 hover:text-white transition-colors duration-300 hover:scale-105 ease-in-out"
       >
